@@ -1,1 +1,16 @@
+/* Basic styling for hero section */
+.hero {
+    padding: 80px;
+    background: #1976d2;
+    color: white;
+}
+
+/* Add spacing to all pages */
+body {
+    background-color: #f6f7fb;
+}
+
+h2 {
+    margin-top: 20px;
+}
 
