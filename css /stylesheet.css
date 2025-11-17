@@ -14,3 +14,14 @@ h2 {
     margin-top: 20px;
 }
 
+/* FAQ styling */
+#faqAccordion .accordion-button {
+    font-weight: bold;
+}
+
+#faqAccordion .accordion-item {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
