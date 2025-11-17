@@ -40,6 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+// Highlight active FAQ item
+document.querySelectorAll('.accordion-button').forEach(button => {
+    button.addEventListener('click', () => {
+        console.log("FAQ item toggled:", button.textContent.trim());
+    });
+});
 
 /*
 =========================================
