@@ -1,27 +1,21 @@
-/* Basic styling for hero section */
-.hero {
-    padding: 80px;
-    background: #1976d2;
-    color: white;
-}
-
-/* Add spacing to all pages */
 body {
-    background-color: #f6f7fb;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-h2 {
-    margin-top: 20px;
+/* Improve contrast */
+header, .navbar {
+  color: white;
 }
 
-/* FAQ styling */
-#faqAccordion .accordion-button {
-    font-weight: bold;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-#faqAccordion .accordion-item {
-    border-radius: 8px;
-    margin-bottom: 10px;
-    overflow: hidden;
-    border: 1px solid #ddd;
+/* Responsive spacing */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
 }
